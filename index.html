@@ -40,6 +40,12 @@
     background: transparent;
 }
 
+#new-banner{
+	width:100%;
+	height:100%;
+}
+
+
 </style>
 </head> 
 <body> 
@@ -50,48 +56,58 @@
     
     	<div id="owl-demo">
           
-  <div class="item"><img src="img/IncomingStudents.png" width="100%"></div>
-  <div class="item"><img src="img/CurrentStudents.png" width="100%"></div>
-  <div class="item"><img src="img/ParentInformation.png" width="100%"></div>
+  <div class="item"><a href="#incomingstudents"><img src="img/IncomingStudents.png" width="100%"></a></div>
+  <div class="item"><a href="#currentstudents"><img src="img/CurrentStudents.png" width="100%"></a></div>
+  <div class="item"><a href="#parentinfo"><img src="img/ParentInformation.png" width="100%"></a></div>
  
 </div>
     
 	
 </div>
 
-<div data-role="page" id="page2">
-	<div data-role="header">
-		<h1>Page Two</h1>
+<div data-role="page" id="incomingstudents">
+	<div data-role="header" data-add-back-btn="true">
+		<h1>Incoming Students</h1>
 	</div>
 	<div data-role="content">	
-		Content		
-	</div>
-	<div data-role="footer">
-		<h4>Page Footer</h4>
+	   <img src="img/bannernontrans.png" id="new-banner" />	
+		<ul data-role="listview" id="currentnav">
+   		 <li><a href="#">Middle School Guide</a></li>
+   		 <li><a href="#">Navigate School</a></li>
+    	 <li><a href="#">Videos</a></li>
+   		 <li><a href="#">Quick Tips</a></li>
+    	 <li><a href="#">W.E.B.</a></li>
+	    </ul>
 	</div>
 </div>
 
-<div data-role="page" id="page3">
-	<div data-role="header">
-		<h1>Page Three</h1>
+<div data-role="page" id="currentstudents">
+	<div data-role="header" data-add-back-btn="true">
+		<h1>Current Students</h1>
 	</div>
 	<div data-role="content">	
-		Content		
-	</div>
-	<div data-role="footer">
-		<h4>Page Footer</h4>
+				<ul data-role="listview">
+   		 <li><a href="#">Homeword</a></li>
+   		 <li><a href="#">Videos</a></li>
+    	 <li><a href="#">Games</a></li>
+   		 <li><a href="#">Clubs</a></li>
+    	 <li><a href="#">News</a></li>
+	    </ul>		
 	</div>
 </div>
 
-<div data-role="page" id="page4">
-	<div data-role="header">
-		<h1>Page Four</h1>
+<div data-role="page" id="parentinfo">
+	<div data-role="header" data-add-back-btn="true">
+		<h1>Parent Information</h1>
 	</div>
 	<div data-role="content">	
-		Content		
-	</div>
-	<div data-role="footer">
-		<h4>Page Footer</h4>
+				<ul data-role="listview">
+   		 <li><a href="#">School Info</a></li>
+   		 <li><a href="#">Map</a></li>
+    	 <li><a href="#">Academics</a></li>
+   		 <li><a href="#">Awards</a></li>
+    	 <li><a href="#">Schedule</a></li>
+	    </ul>		
 	</div>
 </div>
 
