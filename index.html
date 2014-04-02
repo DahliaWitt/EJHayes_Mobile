@@ -26,15 +26,20 @@
     /* Prevent copy paste for all elements except text fields */
     *  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
     input, textarea  { -webkit-user-select:text; }
-    body {
-
+ body {
+        background:url("img/bg.png") no-repeat center center fixed;
 		background-attachment: fixed;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
-
          }
+		 .ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
 .ui-page {
 background: transparent;
 }
@@ -42,22 +47,7 @@ background: transparent;
     background: transparent;
 }
 
-.background-image {
-  z-index: 0;
-
-  display: block;
-  background-image: url('img/bg.png');
-  width: 100%;
-  height: 100%;
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
-
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
+2px);
 }
 
 #new-banner{
@@ -65,12 +55,26 @@ background: transparent;
 	height:100%;
 }
 
+div.transbox
+  {
+  margin:5px 5px;
+  background-color:#ffffff;
+  border:0.5px solid grey;
+  opacity:0.8;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  }
 
+div.transbox p
+  {
+  margin:30px 40px;
+  font-weight:bold;
+  color:#000000;
+  opactiy:1;
+  }
 
 </style>
 </head> 
 <body> 
-<div class="background-image"></div>
 <div data-role="page" id="home">
 	<div data-role="header">
 		<h1>E.J. Hayes Mobile</h1>
@@ -256,8 +260,137 @@ background: transparent;
 	<div data-role="header" data-add-back-btn="true">
 		<h1>Awards</h1>
 	</div>
-	<div data-role="content">	
-	   //TODO Awards
+	<div data-role="content">
+	  <h1 style="text-align:center;">Honors and Awards</h1>
+	  <div class="transbox">
+	    <p>EJH is one of the most decorated schools in Fayette County.  Below is a comprehensive list of honors and awards.</p>
+	    <p><strong>Academic team</strong></p>
+	   <p> <ul>
+	      <li>2006 Kentucky Colonels Sixth Grade Showcase second place</li>
+	      <li>2006 Fayette County Academic Tournament second place</li>
+	      <li>2007 Fayette County Academic Team League Varsity first place</li>
+	      <li>2008 Fayette County Academic Tournament runners up</li>
+	      <li>2008 Quick Recall KAAC Regional Governor's Cup third place</li>
+	      <li>2008 Kentucky Association for Academic Competition regional fourth place</li>
+	      <li>2009 PL Dunbar Academic Challenge Junior Varsity second place</li>
+	      <li>2009 Fayette County Academic Tournament Quick Recall third place</li>
+	      <li>2009 Ballard Academic Tournament Quick Recall third place</li>
+	      <li>2009 Kentucky Association for Academic Competition regional fourth place</li>
+	      <li>2009 Kentucky Association for Academic Competition district runners up</li>
+	      <li>2009 Quick Recall KAAC Regional Governor's Cup fourth place</li>
+	      <li>2009 Kentucky Colonel's Sixth Grade Academic Showcase third place</li>
+	      <li>2009 Fayette County Academic Tournament Silver Division runners up</li>
+	      <li>2009-2010 sixth grade academic showcase third place</li>
+	      <li>2010-2011 sixth grade academic showcase fourth place</li>
+	      <li>2011-2012 Governor's Cup district champions</li>
+	      <li>2011-2012 first place in all written assessments at Governor's Cup district competition</li>
+	      <li>2012-2013 Governor's Cup second place</li>
+	      <li>2012-2013 Governor's Cup math first place- Amit Lohe</li>
+	      <li>2012-2013 Governor's Cup social studies first place- Amit Lohe</li>
+	      <li>2012-2013 Governor's Cup language arts first place- Dara Golding</li>
+	      <li>2012-2013 Governor's Cup arts &amp; humanities first place- Dara Golding</li>
+	      <li>2013-2014 Governor's Cup district runners' up</li>
+	      <li>2013-2013 Governor's Cup district written composition first place- Meghan Jennings</li>
+        </ul>
+	    <p><strong>Band</strong></p>
+	    <ul>
+	      <li>2004-2005 KMEA large band ensemble distinguished rating</li>
+	      <li>2005-2006 KMEA large band ensemble distinguished rating</li>
+	      <li>2006-2007 KMEA large band ensemble distinguished rating</li>
+	      <li>2006-2007 University of Kentucky Middle School band invitational</li>
+	      <li>2006-2007 KMEA band exemplary performance status</li>
+	      <li>2007-2008 KMEA large band ensemble distinguished rating</li>
+	      <li>2007-2008 KMEA in-service band conference performance</li>
+	      <li>2008-2009 KMEA large band ensemble distinguished rating</li>
+	      <li>2009-2010 University of Kentucky Middle School band invitational</li>
+	      <li>2011-2012 KMEA large band ensemble distinguished rating</li>
+	      <li>2012-2013 KMEA large band ensemble distinguished rating</li>
+	      <li>2013-2014 KMEA large band ensemble distinguished rating</li>
+        </ul>
+	    <p><strong>Battle of the Books</strong></p>
+	    <ul>
+	      <li>2007 second place</li>
+	      <li>2008 third place</li>
+	      <li>2009 second place</li>
+	      <li>2011 first place</li>
+	      <li>2012 first place	    </li>
+	    </ul>
+	    <p><strong>Chorus</strong></p>
+	    <ul>
+	      <li>2011-2012 Distinguished and procifient ratings at KMEA	    </li>
+	    </ul>
+	    <p><strong>FCCLA</strong></p>
+	    <ul>
+	      <li>2011-2012 STAR first place in nutrition and wellness- Kasai Baker</li>
+	      <li>2012-2013 STAR first place in environmental ambassadors- Trey Roberts, Kasai Baker and Clif Jackson</li>
+	      <li>2012-2013 STAR first place in digital stories for change- Abbey Patterson, Stephanie Bamfo and Suzanne Seivers	    </li>
+	    </ul>
+	    <p><strong>Kentucky Youth Assembly</strong></p>
+	    <ul>
+	      <li>2012 Leadership Team: Olivia Jennings</li>
+	      <li>2012 Candidate for Governor: Scott Washbish</li>
+	      <li>2012 Outstanding Speaker Award: Rachel Gilbert</li>
+	      <li>2012 Outstanding Delegate: Drake Witt</li>
+	      <li>2012 Outstanding Premier Bill: Olivia Feck, Purav Patel, Niran Chatta, Niraj Patel, and Sahil Patel Outstanding Legislative Bill Authors: Regan Smith, Drake Witt, Daniel Kolpek, and Chris Caprio</li>
+	      <li>2012 Outstanding Bill to be signed into law: Smith, Chris Caprio, Daniel Kolpek, and Drake Witt</li>
+	      <li>2012 Most Outstanding Legislative Bill at 2012 Conference: Regan Smith, Chris Caprio, Drake Witt, and Daniel Kolpek</li>
+	      <li>2012 Most Outstanding Media Corps Specialist: Dara Golding</li>
+	      <li>2012 Delegation of Excellence: E. J. Hayes Middle School.</li>
+	      <li>2013 Outstanding Delegate: Drake Witt</li>
+	      <li>2013 Legislative Award: Sydney Gordon, Hannah Fryman, Hannah Murray, and Anna Goulson</li>
+	      <li>2013 Delegation of Excellence</li>
+	      <li>2014 KYA Governor Elect: Reagan Smith</li>
+        </ul>
+	    <p><strong>Math Counts</strong></p>
+	    <ul>
+	      <li>2005 Best New School</li>
+	      <li>2008 Most Improved Team</li>
+        </ul>
+	    <p><strong>Orchestra</strong></p>
+	    <ul>
+	      <li>2008-2009 KMEA orchestra state conference performance</li>
+	      <li>2006-2007 sixth grade orchestra received all distinguished ratings at KMEA Assessment Festival</li>
+	      <li>2006-2007 seventh/eighth grade combined orchestra received all distinguished ratings at KMEA Assessment Festival</li>
+	      <li>2006-2007 all distinguished and proficient ratings at KMEA Solo and Ensemble Festival</li>
+	      <li>2007-2008 sixth grade orchestra received all Distinguished ratings at KMEA Assessment Festival</li>
+	      <li>2007-2008 seventh/eighth grade combined orchestra received all Distinguished ratings at KMEA Assessment Festival</li>
+	      <li>2007-2008 all distinguished and proficient ratings at KMEA Solo and Ensemble Festival</li>
+	      <li>2007-2008 granted exemplary performance status by KMEA</li>
+	      <li>2008-2009 sixth grade orchestra received all Distinguished ratings at KMEA Assessment Festival</li>
+	      <li>2008-2009 seventh/eighth grade combined orchestra received all Distinguished ratings at KMEA Assessment Festival</li>
+	      <li>2008-2009 all distinguished and proficient ratings at KMEA Solo and Ensemble Festival</li>
+	      <li>2008-2009 seventh/eighth grade orchestra was only middle school orchestra in the state invited to perform at the KMEA Conference in Louisville</li>
+	      <li>2008-2009 orchestra received superior rating at the Music In the Parks Festival at Six Flags Kentucky Kingdom</li>
+	      <li>2009 gold level performance of excellence award from KMEA</li>
+        </ul>
+	    <p><strong>STLP</strong></p>
+	    <ul>
+	      <li>2012 state finals first place: UK Minds on Innovation Challenge (Team Competition with Drake Witt and Reagan Smith)</li>
+	      <li>2012 state finals first place: Quick Recall Challenge – Drake Witt</li>
+	      <li>2012 state finals second place: Quick Recall Challenge – Reagan Smith</li>
+	      <li>2012 state finals second place:Feature Video &ldquo;A Day at the Library&rdquo;</li>
+	      <li>2012 state finals third place: Original Photograph &ldquo;Quiet Reflections&rdquo;</li>
+	      <li>2012 state finals: Gold Status for meeting the state standards for STLP Clubs</li>
+	      <li>2013 Gold Status for meeting the state standars for STLP Clubs</li>
+	      <li>2013 state finals first place: Proven Learning Quick Recall Competition- Reagan Smith</li>
+	      <li>2013- state finals second place: Proven Learning Quick Recall Competition- Drake Witt</li>
+	      <li>2014 STEM competition- first place place community service showcase:  CS:CS</li>
+	      <li>2014 STEm competition second place technology showcase:  Hayes Connected</li>
+	      <li>2014 STEM competition first place manipulated photography – Drake Witt</li>
+	      <li>2014 STEM competition second place graphic design – Drake Witt</li>
+	      <li>2014 STEM competition third place original photography – Mark Marji	    </li>
+	    </ul>
+	    <p><strong>School-wide</strong></p>
+	    <ul>
+	      <li>2006-2007 Southern Association of Schools accreditation</li>
+	      <li>2006-2007 Safe and Civil Schools Audit exemplary score (one of the highest recorded)</li>
+	      <li>2007-2008 lowest discipline rate in the district</li>
+	      <li>2008-2009 second lowest discipline rate in the district</li>
+	      <li>2009 Wal-Mart Teacher of the Year: Sara Francis</li>
+	      <li>2010 Outstanding Bandmaster of the Year: Lois Wiggins</li>
+	      <li>2012 National History Day winners: Amelia Rogers and David Rader in the Group Documentary category</li>
+        </ul>
+      </div>
 	</div>
 </div>
 
@@ -277,7 +410,7 @@ background: transparent;
 	    <li><strong>1:14-2:05: </strong>Fifth period</li>
 	    <li><strong>2:09-3:00: </strong>Sixth period</li>
 	    <li><strong>3:04-3:55: </strong>Seventh period</li>
-      </ul>
+      </ul></p>
 	</div>
 </div>
 
