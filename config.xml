@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "net.fcps.ejhayes"
+        versionCode = "3" 
+        version     = "3.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>E.J. Hayes</name>
+
+    <description>
+        E.J. Hayes Middle School App
+    </description>
+
+    <author href="github.com/LeedleDev" email="dwitt@dranweb.com">
+        Drake Witt
+    </author>
+<gap:plugin name="com.phonegap.plugin.statusbar" />
+<gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
+</widget>
