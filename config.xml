@@ -17,5 +17,5 @@
         Drake Witt
     </author>
 <gap:plugin name="com.phonegap.plugin.statusbar" />
-<gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
+<gap:plugin name="com.phonegap.plugins.childbrowser" version="4.2.1" />
 </widget>
