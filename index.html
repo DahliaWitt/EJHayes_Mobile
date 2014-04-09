@@ -14,7 +14,7 @@
 <script src="js/script.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script type="text/javascript" href="js/statusbar.js"></script>
-<script type="text/javascript" href="js/inappbrowser.js"></script>
+<script type="text/javascript" href="js/childbrowser.js"></script>
 <style type="text/css">
 #owl-demo .item{
   margin: 3px;
@@ -107,7 +107,7 @@ div.transbox p
 		<ul data-role="listview" id="currentnav">
    		 <li><a href="#msguide">Middle School Guide</a></li>
    		 <li><a href="#navigateschool">Navigate School</a></li>
-    	 <li><a href="#incomingstudents" onClick="var ref = window.open('http://dranweb.com/homework/sites/videos/newstudent/videos', '_blank', 'location=yes');">Videos</a></li>
+    	 <li><a href="#incomingstudents" onClick="showWebPage('http://dranweb.com/homework/sites/videos/newstudent/videos');">Videos</a></li>
    		 <li><a href="#qtips">Quick Tips</a></li>
     	 <li><a href="#web">W.E.B.</a></li>
 	    </ul>
@@ -121,11 +121,11 @@ div.transbox p
 	<div data-role="content">	
        <img src="img/currentpanner.png" id="new-banner" />	
 		<ul data-role="listview">
-   		 <li><a href="#currentstudents" onClick="var ref = window.open('http://dranweb.com/homework/sites/dir', '_blank', 'location=yes');">Homework</a></li>
-   		 <li><a href="#currentstudents" onClick="var ref = window.open('http://dranweb.com/homework/sites/videos', '_blank', 'location=yes');">Videos</a></li>
+   		 <li><a href="#currentstudents" onClick="showWebPage('http://dranweb.com/homework/sites/dir');">Homework</a></li>
+   		 <li><a href="#currentstudents" onClick="showWebPage('http://dranweb.com/homework/sites/videos');">Videos</a></li>
     	 <li><a href="#eduapps">Educational Apps</a></li>
    		 <li><a href="#clubs">Clubs</a></li>
-    	 <li><a href="#currentstudents" onClick="var ref = window.open('http://dranweb.com/news', '_blank', 'location=yes');">News</a></li>
+    	 <li><a href="#currentstudents" onClick="showWebPage('http://dranweb.com/news');">News</a></li>
 	    </ul>		
 	</div>
 </div>
